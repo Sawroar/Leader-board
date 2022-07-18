@@ -1,7 +1,41 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&family=Roboto&display=swap');
+
+/* common styles */
+body {
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F3F1FF;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.container {
+    background-color: white;
+    width: 870px;
+    padding: 30px;
+
+
+}
+
+.section-title {
+    color: #562EFF;
+    font-size: 24px;
+}
+
 /* Top players style */
 .top-players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
 }
 
 .player {
@@ -12,4 +46,8 @@
 .player img {
     height: 56px;
     width: 56px;
+}
+
+.player-name {
+    margin-left: 16px;
 }
